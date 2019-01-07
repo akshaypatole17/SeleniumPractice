@@ -16,6 +16,7 @@ public class HandlingFrames {
 		driver.findElement(By.xpath("//input[@value=\"Login\"]")).click();
 		driver.switchTo().frame("mainpanel");
 		driver.findElement(By.xpath(".//*[@id='navmenu']/ul/li[4]/a")).click();
+		
 	}
 
 }
